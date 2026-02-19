@@ -1,0 +1,8 @@
+OLLAMA_URL = "http://localhost:11434"
+MODEL_NAME = "mistral:7b"
+
+META_ACCESS_TOKEN = "test"
+PHONE_NUMBER_ID = "98989877"
+VERIFY_TOKEN = "432432"
+
+MAX_MEMORY = 6

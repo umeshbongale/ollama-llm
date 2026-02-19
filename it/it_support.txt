@@ -1,0 +1,39 @@
+Computer Not Turning On
+
+If a computer does not power on and shows no lights, no fan noise, or only a black screen, the issue may be related to power supply. First, check that the power cable is properly connected. Try using a different wall socket. For laptops, remove the battery and plug the charger directly into the device. Hold the power button for 10 seconds to perform a power reset. If the issue continues, contact hardware support.
+
+No Internet Connection
+
+If the user cannot access the internet or sees a “No Internet” message even though WiFi is connected, the issue may be with the router, DNS settings, or network driver. Restart the router first. Then run the following commands in Command Prompt: ipconfig /release and ipconfig /renew. You may also run ipconfig /flushdns to clear DNS cache. Disable and re-enable the network adapter. If the problem continues, contact the internet service provider.
+
+Forgot Windows Password
+
+If a user forgets their Windows login password and receives an incorrect password error, they should click the “Reset Password” option and follow the recovery process using a registered email or phone number. If the user is part of a company domain, they must contact the IT administrator to reset the password. Local users may attempt recovery through Safe Mode if configured.
+
+Printer Not Printing
+
+If the printer is not responding or print jobs are stuck in the queue, restart the printer first. Clear the print queue by going to Control Panel, selecting Devices and Printers, and canceling all pending documents. Set the printer as the default printer. If the issue continues, reinstall the printer driver and check the USB or network cable connection.
+
+Computer Running Slow
+
+If the computer is running slow, experiencing long boot times, freezing applications, or high CPU usage, open Task Manager to check CPU and RAM consumption. Disable unnecessary startup programs. Run disk cleanup to free storage space. Perform a malware scan. If performance issues continue, consider upgrading RAM or replacing the hard drive with an SSD.
+
+Outlook Not Sending Emails
+
+If Outlook is not sending emails and messages are stuck in the outbox, first check the internet connection. Verify SMTP and IMAP settings. Remove large attachments from the email. Restart Outlook. If the issue persists, contact the email administrator to verify server settings.
+
+Account Locked
+
+If a user account becomes locked after multiple incorrect login attempts, wait 15 to 30 minutes for automatic unlock according to company policy. If urgent access is required, contact the IT administrator to manually unlock the account. Reset the password and ensure Caps Lock is not enabled during login.
+
+Blue Screen Error
+
+If Windows displays a blue screen error, note the error code displayed. Restart the system and boot into Safe Mode if necessary. Update system drivers. Run the command sfc /scannow in Command Prompt to check for corrupted system files. Use Windows Memory Diagnostic to test RAM if hardware issues are suspected.
+
+Software Installation Failed
+
+If software installation fails, run the installer as Administrator. Temporarily disable antivirus software if safe to do so. Check that sufficient disk space is available. Ensure required runtime frameworks such as .NET are installed. Download a fresh installer file if corruption is suspected.
+
+VPN Not Connecting
+
+If VPN fails to connect, verify that the internet connection is working. Confirm that the username and password are correct. Restart the VPN client application. Try switching between UDP and TCP protocols if available. If connection still fails, contact the network support team.
