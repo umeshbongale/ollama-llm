@@ -1,0 +1,92 @@
+############################
+# PYTHON
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+############################
+# VIRTUAL ENVIRONMENTS
+############################
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+############################
+# ENVIRONMENT VARIABLES
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# DATABASE FILES
+############################
+*.db
+*.sqlite3
+*.sqlite
+instance/
+
+############################
+# LOG FILES
+############################
+*.log
+logs/
+*.out
+
+############################
+# TEST / COVERAGE
+############################
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.cache/
+
+############################
+# IDEs
+############################
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+############################
+# OS FILES
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# DOCKER
+############################
+.dockerignore
+
+############################
+# NODE (if you add dashboard later)
+############################
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+############################
+# OLLAMA (optional cache)
+############################
+ollama.log
